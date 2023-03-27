@@ -8,13 +8,19 @@ import { AppComponent } from './app.component';
 import { NavigationComponent } from './components/navigation/navigation.component';
 import { GameFormComponent } from './components/game-form/game-form.component';
 import { GameListComponent } from './components/game-list/game-list.component';
-import {GamesService} from './services/games.service'
+import {GamesService} from './services/games.service';
+import { IndexGamesComponent } from './components/index-games/index-games.component';
+import { FormUserComponent } from './components/form-user/form-user.component';
+import { RegisterUserComponent } from './components/register-user/register-user.component'
 @NgModule({
   declarations: [
     AppComponent,
     NavigationComponent,
     GameFormComponent,
-    GameListComponent
+    GameListComponent,
+    IndexGamesComponent,
+    FormUserComponent,
+    RegisterUserComponent
   ],
   imports: [
     BrowserModule,

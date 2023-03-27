@@ -1,0 +1,17 @@
+.headerIndex{
+    background: #000000 ;
+    height: 70vh;
+    width: 100vw;
+    background-position: center;
+    background-size: 100vw;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.headerIndex p{
+    margin-top: 70px;
+    font-size: 200px;
+    color: aliceblue;
+     font-family: 'Yanone Kaffeesatz', sans-serif;
+}
