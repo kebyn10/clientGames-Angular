@@ -4,6 +4,7 @@ import { GameListComponent } from './components/game-list/game-list.component';
 import { GameFormComponent } from './components/game-form/game-form.component';
 import { IndexGamesComponent } from './components/index-games/index-games.component';
 import { FormUserComponent } from './components/form-user/form-user.component';
+import { RegisterUserComponent } from './components/register-user/register-user.component';
 const routes: Routes = [
     {
         path:'',
@@ -26,6 +27,10 @@ const routes: Routes = [
     },{
         path:'user/login',
         component:FormUserComponent
+    },
+    {
+      path:'user/sigup',
+      component:RegisterUserComponent
     }
 ];
 
